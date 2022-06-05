@@ -1,0 +1,254 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+header {    
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+footer {
+     width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+    min-height: 100%;
+}
+
+:root {
+    --bg-gray: rgb(51, 51, 51);
+    --bg-green-btn: rgb(130, 200, 0);
+    --bg-degBlue: linear-gradient(90deg, rgba(0,57,77,1) 0%, rgba(9,70,121,1) 50%, rgba(0,121,163,1) 100%);
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+}
+
+.nav-img {
+    width: 75px;
+    height: 75px;
+    right: 200px;
+    object-fit: cover;
+} 
+
+.nav2 {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background:-webkit-linear-gradient(left, rgb(0, 0, 66), rgb(0, 52, 107));
+}
+
+.nav2-a {
+    text-justify: auto;
+    font-size: small;
+   
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: right;
+}
+
+.contenedor-img {
+    width: 100%;
+    height: 600px;
+    background: rgb(0, 0, 0);
+    opacity: 0.9;
+    filter: brightness(50%);
+    position: relative;
+}
+
+
+.contenedor2 {
+    height: 50%;
+    position: relative;
+    margin-top: 10px; 
+}
+
+.contenedor2-img {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    opacity: 1;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container-img {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    position: relative;
+}
+
+.container-p {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    transform: traslate (-50%, -50%);
+}
+
+.container-h6 {
+    font-size: 12px;
+    color: black;
+}
+
+.container2 {
+    height:max-content;
+    width: 100%;
+    position: relative;
+    margin: 10px;
+}
+        
+.container2-img {
+    width: 50%;
+    height: 50%;
+    background:#212121;
+    opacity: 0.5;
+    position: relative;
+}
+        
+.container2-p {
+    font-size: 16px;
+    color: black;
+    position: relative;
+    transform: traslate (-50%, -50%);
+}
+        
+.container2-h3 {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 40%;
+    Left: 50%;  
+    transform: traslate (-50%, -50%);
+}
+
+.texto-encima{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 1cm;
+    text-align: left;
+    color: white;
+    top: 225px;
+    right: 20px;
+}
+
+.texto-encima1{
+    position: absolute;
+    font-size:larger;
+    text-align: right;
+    color: white;
+    top: 300px;
+    left: 700px;
+    right: 20px; 
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+}
+
+.img-var {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+} 
+
+
+.card1 {
+    width: 350px;
+    height: 600px;
+    margin: 20px;
+    border-style:groove;
+    border-color: darkgrey;
+    align-self: center;
+    position: relative;
+}
+
+.card1-img{
+    width: 100%;
+    height: 150px;
+    margin: 20px;
+    align-self: center;
+    object-fit: cover;
+}
+
+.card1-body {
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+    font-style: black;
+    align-self: center;
+    position: relative;
+}
+
+.card1-text{
+    font-style: black;
+    margin: 20px;
+    align-content: center;
+    position: relative;
+}
+
+.card2 {
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+}
+
+.card2-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card2-text{
+    color: #ffffff;
+    position: relative;
+}
+
+.nav-img {
+    width: 100%;
+    height: 25px;
+}
+
+#fondo {
+	background-image: url(https://pro.empresiona.com/wp-content/uploads/2019/02/guillermo-sanchez-529739-unsplash-2.jpg);
+	padding: 400px 100px;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#textvar {
+    font-size: smaller;
+    color: white;
+    text-align: center;
+    justify-items: normal;
+}
